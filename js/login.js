@@ -11,4 +11,4 @@ function moveToMain(){
   console.log("Please check your ID");
 }
 
-submit.addEventListener(onclick, moveToMain());
+submit.onclick = moveToMain();
