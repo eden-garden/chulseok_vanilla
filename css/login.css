@@ -62,3 +62,9 @@ button:hover {
   padding: 16px;
 }
 
+.clock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-end;
+}
