@@ -4,61 +4,97 @@ body{
 
 .navbar{
   display: flex;
-  height: 5vh;
+  height: 50px;
   align-items: center;
   padding: 1%;
   justify-content: space-between;
   border-bottom: 1px solid white;
   background-color:#658fe4;
-
+  margin:0;
 }
 .navbar__logo_img{
-  height: 90%;
-  width: 30%;
+  height: 50px;
+  width: 150px;
+}
+.one{
+  margin:10px;
+  padding:0;
+}
+
+.two{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
 }
 .navbar__title{
   font-weight: 700;
   font-size: 120%;
   font-family:Arial, Helvetica, sans-serif;
 }
-
-/* Bordered form */
-
-form {
-  border: 3px solid #f1f1f1;
-  margin-top: 20vh;
-  margin-right: 5vh;
-  margin-left: 5vh;
+.settingLogo{
+  height: 50px;
+  width:auto;
+}
+.navbar__setting{
+  margin-right: 3px;
+  item;
+}
+.logout{
+  margin : 3px;
+  font-weight: 900;
 }
 
-/* Full-width inputs */
-input[type=text]{
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
+/* header part */
+.header{
+  display: flex;
+}
+.serverBtn{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  font-size: 50px;
+  background-color:salmon;
+  color:white;
+  border:none;
+  border-radius: 10px;
+}
+.week{
+  margin-left: 20px;
+}
+h1{
+  font-size: 40px;
+  margin-top:10px;
+  margin-bottom: 0px;
+}
+h2{
+  margin-top: 0;
 }
 
-/* Set a style for all buttons */
-button {
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
+.field {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: auto;
+  margin:20px 10px;
+  background: linear-gradient(to right, tomato, pink);
+  justify-content: space-between;
 }
-
-/* Add a hover effect for buttons */
-button:hover {
-  opacity: 0.8;
+.field > .name{
+  margin:10px;
+  font-size: 30px;
+  font-weight: 900;
 }
-
-/* Add padding to containers */
-.container {
-  padding: 16px;
+.state{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 900;
 }
-
+.number{
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
