@@ -12,14 +12,14 @@
 // }
 
 // submit.onclick = moveToMain();
-function login(){
-    const id = document.getElementById("#id");
+function login(form){
 
-    if(id.value == "Eden"){
-        window.location.href = "../html/main.html";
+    if(form.uname.value === 'Eden'){
+        alert("로그인 되었습니다!");
+        window.open('main.html', '_self');
     }
     else{
-        alert("아이디를 확인해주세요!")
+        alert("아이디를 확인해주세요!");
     }
 
 }

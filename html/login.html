@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,24 +10,27 @@
   <meta title="description" content="Login page to access home">
   <link rel="stylesheet" type="text/css" href="../css/login.css">
 </head>
+
 <body>
   <section class="navbar">
     <img src="../img/symbol.png" alt="symbol logo of Antioch church" class="navbar__logo_img">
     <div class="navbar__title">전교인 출석체크</div>
   </section>
   <section class="login">
-    <form action="action_page.php" method="post">
+    <form>
       <div class="container">
         <label for="uname"><b>Username</b></label>
-        <input type="text" id="id" placeholder="Enter Username" name="uname" required>
-        <button type="submit" onclick="login();">Login</button>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+        <button type="submit" onclick="login(this.form);">Login</button>
       </div>
     </form>
   </section>
   <!-- <section class="clock">
     <h1 id="clock">00:00:00</h1>
-  </section> -->
+  </section>
   <script src="../js/clock.js"></script>
+   -->
   <script src="../js/login.js"></script>
 </body>
+
 </html>
