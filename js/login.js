@@ -12,11 +12,12 @@
 // }
 
 // submit.onclick = moveToMain();
-function login(form){
+function login(){
+    const uname = document.querySelector("input")
 
-    if(form.uname.value === 'Eden'){
+    if(uname.value === 'Eden'){
         alert("로그인 되었습니다!");
-        window.open('main.html', '_self');
+        window.location.href = "./main.html";
     }
     else{
         alert("아이디를 확인해주세요!");
