@@ -17,7 +17,7 @@ function login(){
 
     if(uname.value === 'Eden'){
         alert("로그인 되었습니다!");
-        window.location.href = './main.html';
+        window.location.replace('./main.html');
     }
     else{
         alert("아이디를 확인해주세요!");
