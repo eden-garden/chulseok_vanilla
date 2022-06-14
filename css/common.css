@@ -34,4 +34,14 @@ body{
     align-items: center;
     justify-content: center;
   }
-  
+  .settingLogo{
+    height: 42px;
+    width:auto;
+  }
+  .navbar__setting{
+    margin-right: 3px;
+  }
+  .logout{
+    margin : 3px;
+    font-weight: 900;
+  }
